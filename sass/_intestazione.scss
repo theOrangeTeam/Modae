@@ -1,0 +1,80 @@
+/*--------INTESTAZIONE--------- */
+
+header.intestazione {
+    margin: 60px auto 40px;
+}
+    
+    @media (max-width: 415px) {
+       
+        header.intestazione {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           margin: 20px 0 10px!important;
+            padding: 0;
+        }
+        header.intestazione h1 {
+            font-size: 2.6rem;
+    }
+    header.intestazione p {
+        
+        font-size: 0.8rem;
+     }
+    
+  
+    @media (max-width: 769px) {
+        .flexContainerInterview {
+            flex-direction: column;
+            margin: 20px auto;
+            align-items: center;
+        }
+        .cell40 {
+            display: flex;
+            justify-content: center;
+        }
+        figcaption {
+            margin: 10px auto 30px;
+        }
+        header.intestazione {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            
+            padding: 0;
+            
+        }
+    }
+}
+
+header.intestazione h1 {
+    font-weight: 500;
+    color: #434343;
+    font-size: 2.8rem;
+    padding: 10px 0 5px;
+    margin: 0;
+}
+
+header.intestazione p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+    color: #434343;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    height: 28px;
+    width: 200px;
+    background-color: #FAC728;
+    border-radius: 50px;
+    margin-top: 20px;
+}

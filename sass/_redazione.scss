@@ -1,0 +1,111 @@
+    h3, p{
+        margin:0;
+       
+    }
+
+    figcaption{
+        margin:10px 0;
+    }
+
+.artdirector{
+
+    @media screen and (min-width:$laptop) {
+    display: flex;
+    align-items: flex-end;
+    
+    p,h3 {
+        margin: 0 20px;
+    }
+}
+
+    @media screen and (max-width:$laptop) {
+      
+        figcaption{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        span{
+            margin: 0 50px 0 0;
+        }
+
+    @media screen and (max-width:$mobile){
+        
+        figcaption{
+            display: block;
+        }
+
+        span{
+            margin:0;
+        }
+
+
+
+
+    }
+
+
+}
+
+
+
+    
+}
+
+div.col{
+    padding: 0;
+    margin: 50px 0;
+    color:$darkGray;
+
+
+    
+    p{
+        font-weight: 100;
+        font-size: 0.9rem;
+
+        @media screen and (max-width:$laptop) {
+
+            font-size:0.8rem
+            
+        }
+
+        @media screen and (max-width:$mobile) {
+
+            font-size:1rem;
+            font-weight:300;
+            
+        }
+
+
+
+    }
+
+    h3{
+
+        @media screen and (max-width:$laptop) {
+
+            font-size:1rem
+            
+        }
+
+        @media screen and (max-width:$mobile) {
+
+            font-size:1.1rem
+            
+        }
+    }
+
+
+    @media screen and (max-width:$mobile){
+        
+        margin:30px auto;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+.imgcontributors{
+    width:150%;
+}

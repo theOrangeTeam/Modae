@@ -1,0 +1,166 @@
+/* CSS Document */
+
+
+
+/*--------CARD IMMAGINI-------*/
+.flexCard {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding-bottom: 160px;
+	flex-direction: row;
+}
+
+.cardWrap{
+	display: flex;
+	align-items: flex-end;
+	flex: 1 0 50%;
+	
+	
+}
+.card {
+	margin: 0 auto;
+}
+figure {
+	padding: 0;
+	margin: 0;
+}
+figure img {
+	width: 100%;
+	height: auto;
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+}
+.cardContainer {
+	flex: 1 0 calc(30% - 1rem);
+	padding-top: 50px;
+}
+
+.padding {
+	padding-top: 130px;
+}
+
+.paddingText {
+	padding-top: 130px;
+}
+
+.spazio{
+	padding-left: 15px;
+	flex: 1 0 calc(20% - 1rem)!important;
+	
+}
+
+article h3{
+	
+	font-weight: 900;
+	color: #434343;
+	padding: 180px 0 24px;
+	font-size: 1.2rem;
+}
+
+article p{
+	font-weight: 400;
+	color: #545454;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	padding-right: 20px;
+
+	
+}
+
+
+.bottone{
+	display: block;
+	height: 28px;
+	width: 105px;
+	background-color: #FAC728;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+
+.due {
+	
+	width: 200px;
+	line-height: 28px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	 text-align: center;
+	 font-size: 0.8rem;
+	 letter-spacing: 1px; 
+}
+
+
+
+article  a {
+	line-height: 28px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	 text-align: center;
+	 font-size: 0.8rem;
+	 letter-spacing: 1px; 
+	 
+}
+
+/* mobile layout */
+@media (max-width: 415px) {
+.cardContainer {
+	flex: 1 0 100%;
+}
+
+	
+	.cardWrap{
+		flex-direction: column;
+	}
+
+	.flexCard {
+	flex-direction: column;
+	width: 90%;
+}
+	
+	h1#free{
+		font-size: 32px;
+	}
+	.brand a img {
+	height: 5rem;
+		
+}
+	article h3{
+	padding:16px 0 10px;
+
+}
+	.spazio{
+		padding: 0!important;
+	}
+     div.intestazione{
+        max-width: 85%;
+    }
+    
+ div.intestazione h1{
+    font-size: 2.6rem;
+	 padding-bottom: 8px;
+  
+ }
+
+}
+
+
+
+/* i-pad layout */
+@media (max-width: 769px) {
+.cardContainer {
+	flex: 1 0 calc(50% - 1rem);
+    padding-top: 70px;
+}
+.flexFoot {
+	flex-direction: column;
+}
+.flexCard {
+	width: 85%;
+	flex-direction: column;
+}
+	
+}

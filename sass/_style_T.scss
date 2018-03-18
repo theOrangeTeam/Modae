@@ -1,0 +1,196 @@
+/* CSS Document */
+
+div.fine {
+    margin: 60px auto;
+    max-width: 81%;
+    text-align: right;
+    font-weight: 100;
+}
+/*--------CARD IMMAGINI-------*/
+.flexCard {
+    display: flex;
+    width: 81%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.cardContainer {
+    flex: 1 0 calc(33% - 1rem);
+    margin-right: 30px;
+    align-items: flex-start;
+}
+
+.flexMattoni {
+    display: flex;
+    padding-top: 24px;
+    flex-wrap: wrap;
+}
+.mattone {
+    flex: 1 0 30%;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    margin-right: 12px;
+}
+.mattone2 {
+    flex: 1 0 30%;
+    justify-content: space-between;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 12px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+.NoMargin {
+    margin: 0px!important;
+}
+article h2 {
+    font-weight: 900;
+    color: #595B60;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin: 0;
+}
+article h3 {
+    font-weight: 900;
+    color: #595B60;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin: 0;
+}
+span {
+    font-weight: 300;
+    color: #595B60;
+    font-size: 0.9rem;
+}
+article p {
+    font-weight: 400;
+    color: #545454;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+article p span {
+    font-weight: 100;
+    color: #545454;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+#spazioAllaFine {
+    margin-bottom: 80px;
+}
+
+/* mobile layout */
+@media (max-width: 415px) {
+    .cardContainer {
+        flex: 1 0 100%;
+    }
+    .flexFoot {
+        flex-direction: column;
+    }
+    .due {
+        margin: 70px auto 10px!important;
+    }
+    .cardWrap {
+        flex-direction: column;
+    }
+    .footer-item {
+        flex-basis: 100%;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        font-weight: 300;
+    }
+    article h2 {
+        margin-top: 60px;
+    }
+    article p {
+        padding: 0px;
+    }
+    .flexMattoni {
+        padding-top: 16px;
+    }
+    .flexCard {
+        flex-direction: column;
+        width: 90%;
+    }
+    .cardContainer {
+        margin: 0px;
+    }
+    .brand a img {
+        height: 5rem;
+    }
+    article h3 {
+        padding: 16px 0 10px;
+    }
+    div.intestazione {
+        max-width: 85%;
+        margin: 60px auto 0;
+    }
+    div.intestazione h1 {
+        font-size: 2.6rem;
+        padding-bottom: 8px;
+    }
+    div.intestazione p {
+        font-size: 0.8rem;
+    }
+    }
+    
+    /* i-pad layout */
+    @media (max-width: 769px) {
+    .cardContainer {
+        flex: 1 0 100%;
+        margin-right: 0;
+    }
+        
+    .intestazione {
+        max-width: 85%;
+    }
+    .fine {
+        max-width: 85%;
+    }
+    .flexFoot {
+        flex-direction: column;
+    }
+    .flexCard {
+        width: 85%;
+        flex-direction: column;
+    }
+    article h2 {
+        margin-top: 60px;
+    }
+    nav.navbar {
+        display: none;
+    }
+    .brand a:first-child {
+        display: flex;
+        align-content: center;
+        color: #6E6E6E;
+    }
+    .brand a:first-child i {
+        font-size: 48px;
+        margin-right: 1rem;
+    }
+    .padding {
+        padding-top: 70px;
+    }
+    .paddingText {
+        padding-top: 0;
+    }
+    .bottone {
+        margin-top: 16px;
+    }
+    }
+    
+    @media screen and (min-width: 1280px) {
+        .cardContainer:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+    

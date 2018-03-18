@@ -1,0 +1,90 @@
+/* CSS Document */
+
+/*------progetto -------*/
+
+img{
+    max-width: 100%;
+
+}
+
+figure{
+    @media screen and (max-width:$tablet){
+        margin: 20px auto;
+    }
+}
+
+hr.graphic {
+    
+    color: #7FBB3B;
+    width: 40px;
+    border: solid 1px;
+	position: relative;
+	display: inline-block;
+	top:2px;
+
+}
+
+hr.interior {
+    
+    color: #0098DB;
+    width: 40px;
+    border: solid 1px;
+	position: relative;
+	display: inline-block;
+	top:2px;
+
+}
+
+hr.fashion {
+    
+    color: #C4487E;
+    width: 40px;
+    border: solid 1px;
+	position: relative;
+	display: inline-block;
+	top:2px;
+
+}
+
+hr.contest{
+    
+    color: #FAC728;
+    width: 40px;
+    border: solid 1px;
+	position: relative;
+	display: inline-block;
+	top:2px;
+
+}
+
+
+
+.progetto{
+    margin:80px auto;
+}
+
+
+
+
+.progettoWrapper{
+	
+	margin:100px auto;
+	text-align: center;
+	
+}
+
+.titolo{    
+        
+        display: inline;
+        padding: 0 10px;
+	    font-weight: 300;
+}
+
+.project{
+    display: flex;
+}
+
+.projectl12{
+    align-self: flex-end;
+    margin:20px 0 0;
+}

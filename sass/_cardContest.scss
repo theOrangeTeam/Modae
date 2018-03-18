@@ -1,0 +1,125 @@
+.row {
+    margin: 0 -1rem 0px 0;
+}
+header.intestazione {
+    margin: 60px auto 40px;
+    padding-left: 15px;
+}
+  div.nome {
+        padding: 0 1rem;
+        @media (max-width: 415px) {
+            /*INTERVISTA*/
+            div.nome {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 0 0 10px;
+                padding: 0;
+            }
+            div.nome h2 {
+                font-size: 2.6rem;
+            }
+            div.nome p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+  
+div ul li{
+    padding:0;
+}
+.return{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: center;
+	align-items: center;
+	color: #E15C2A;
+	margin: 0 0 100px; 
+	
+}
+
+
+
+	
+    .contest {
+        h3{
+            font-size: 1.2rem;
+            margin: 13px 0 auto;
+            font-weight: 300;
+            color: $darkGray;
+        }
+    
+        li{
+            list-style: disc;
+            color: #FAC728;
+            font-size: 28px;
+           
+            
+          
+            
+        }
+    }
+
+   
+
+    a {
+        cursor: pointer;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .contestLink {
+        margin-bottom: 200px;
+    }
+
+    @media (max-width: 769px) {
+        div.nome {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin: 0 auto 60px;
+        }
+    }
+
+    div.progetto {
+        margin: 30px auto!important;
+    }
+
+    div.distanza {
+        padding-bottom: 120px;
+        @media (max-width: 415px) {
+            padding-bottom: 40px;
+        }
+    }
+
+    div.nome h2 {
+        font-weight: 500;
+        color: #434343;
+        font-size: 1.8rem;
+        padding: 30px 0 0;
+        margin: 0;
+    }
+
+    div.nome p {
+        font-weight: 300;
+        font-size: 0.9rem;
+        padding: 0;
+        margin: 0;
+        color: #434343;
+    }
+
+    .flexCard {
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+        @media (max-width: 415px) {
+            .flexCard {
+                flex-direction: column;
+                width: 90%;
+            }
+        }
+    }

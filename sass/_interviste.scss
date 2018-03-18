@@ -1,0 +1,62 @@
+/* CSS Document */
+
+/*------Interviste--------*/
+
+.flexInterview {
+   
+    color: $darkGray;
+    font-size: 0.9rem;
+    justify-content: flex-end;
+    font-weight: 300;
+    line-height: 1.2rem;
+    font-family: 'Roboto';
+    
+    :first-child{
+        margin: 0;
+    }
+
+  
+}
+
+
+
+@media screen and ( max-width:  $laptop){
+    .leggitutto{
+       margin-top: 40px;
+    }
+}
+
+@media (max-width: $mobile) {
+    .leggitutto {
+        display: none;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+#btnLeggiTutto {
+    display: none;
+
+
+
+
+    @media screen and (max-width: $mobile) {
+      
+
+            display: flex;
+            margin: 20px auto;
+            align-items: center;
+            font-size: 50px;
+            border: none;
+            background: #fff;
+
+        .material-icons {
+            font-size: 44px;
+        }
+    }
+}
+
+.fiximage{
+    display: flex;
+    align-self: flex-end;
+}

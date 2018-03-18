@@ -1,0 +1,44 @@
+.lista{
+
+    h2{
+        font-size: 1.4rem;
+        color: $darkGray;
+    }
+
+    h3{
+        font-size: 1.2rem;
+        margin: 13px 0 auto;
+        font-weight: 300;
+        color: $darkGray;
+    }
+
+    li{
+        list-style: disc;
+        color: #E15C2A;
+        font-size: 28px;
+        margin: 42px 0 ;
+        padding: 0 20px;
+        @media (max-width: 415px) {
+            padding: 0px;
+        }
+    }
+
+   
+
+    a{
+        cursor: pointer;;
+    }
+
+   
+
+    :last-child
+    {
+        margin-bottom:0;
+    }
+    
+   
+}
+
+.row{
+    margin:0 -1rem 100px 0;
+}

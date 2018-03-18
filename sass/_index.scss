@@ -1,0 +1,223 @@
+
+
+h1#free {
+    @media (max-width: $mobile) {
+            font-size: 30px;
+            margin: 70px auto 160px;
+        }
+    text-align: center;
+    font-weight: 100;
+    font-size: 36px;
+    margin: 130px auto 220px;
+    color: #6A6A6A
+}
+
+
+#sfondoGrigio {
+    @media (max-width: 769px) {
+            height: auto
+        }
+    background-color: #2A2929;
+    width: 100%;
+    display: table;
+    height: 940px
+}
+
+.pos {
+    margin-top: -80px;
+   
+   
+}
+
+
+#flexCard {
+@media (max-width: 415px) {
+        flex-direction: column;
+        width: 90%
+    }
+    @media (max-width: 769px) {
+            width: 85%
+        }
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0;
+   
+}
+
+.card {
+    margin: 0 auto
+}
+
+figure {
+    padding: 0;
+    margin: 0
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-content: center;
+    margin: 0 auto
+}
+
+
+
+
+    .cardContainer {
+        position: relative;
+        
+    }
+
+
+
+div.magazione {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+    margin: 150px auto
+}
+
+div.magazione hr {
+    margin: 10px auto !important;
+    width: 15%;
+    border: thin solid
+}
+
+div.magazione a {
+    margin: 0 !important;
+    color: #fff;
+    font-weight: 300
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: rgba(251, 10, 170, 0.6);
+    
+    cursor: pointer;
+    
+}
+
+@media screen and (min-width:$desktop){
+    .overlay{
+    opacity: 0;
+   
+    }
+    
+    .overlay:hover{
+     transition: 1.0s ease-in-out;
+     opacity: 1;
+}
+}
+
+
+.due {
+    background-color: rgba(127, 187, 59, 0.6)
+}
+
+.tre {
+    background-color: rgba(0, 152, 219, 0.6)
+}
+
+.quattro {
+    background-color: rgba(250, 199, 40, 0.6)
+}
+
+.cinque {
+    background-color: rgba(225, 92, 42, 0.6)
+}
+
+
+
+
+.text {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 500;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center
+}
+
+   
+
+
+
+    @mixin filter_element($value , $blur) {
+        -webkit-filter: #{"grayscale(#{$value}) blur(#{$blur})"};
+        -moz-filter: #{"grayscale(#{$value}) blur(#{$blur})"};
+        filter:#{"grayscale(#{$value})  blur(#{$blur})" };
+       
+        
+    }
+    
+    .filter  {
+        
+        figure{
+        @include filter_element(0, 2px);
+        transition: all 200ms ease-in-out;
+        }
+
+        .titleCard{          
+            color: white;
+            transition: all 200ms ease-in-out;
+        }
+       
+        
+        
+
+        &:hover {
+
+            figure{
+                @include filter_element(100%, 0);
+            }
+            .titleCard{
+               
+                color: rgba(251, 10, 170, 1);
+            }
+
+        }
+    
+
+    
+    }
+
+        
+    .titleCard{
+        
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-weight: 500;
+        text-decoration: none;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    
+      
+    
+    }
+
+
+    .row .col { 
+        padding: 0;
+    }
+    
+    
+ 
